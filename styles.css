@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -34,10 +34,20 @@ section {
     max-width: 800px;
     margin: auto;
 }
-.project {
+.experience {
     background-color: #fff;
     padding: 1em;
     margin-bottom: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background-color: #fff;
+    margin: 0.5em 0;
+    padding: 0.5em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
