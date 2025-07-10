@@ -29,7 +29,10 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-section {
+.hero {
+    padding: 2em 0;
+}
+main {
     padding: 2em;
     max-width: 800px;
     margin: auto;
