@@ -13,8 +13,8 @@ body {
 
 .hero h1.name {
     font-size: 4em;
-    color: #0f0;
-    text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }
 
 .container {
