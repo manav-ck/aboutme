@@ -1,15 +1,21 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    background: #000;
+    color: #ccc;
 }
 
 .hero {
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
-    color: white;
+    background: #000;
+    color: #0f0;
     padding: 60px 20px;
     text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    color: #0f0;
+    text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
 }
 
 .container {
@@ -19,7 +25,7 @@ body {
 }
 
 .navbar {
-    background: #333;
+    background: #111;
     padding: 10px 0;
     text-align: center;
 }
@@ -36,24 +42,29 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: #0f0;
     text-decoration: none;
     font-weight: bold;
 }
 
 .card {
-    background: white;
+    background: #111;
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,255,0,0.2);
+}
+
+.card h2 {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
 }
 
 .footer {
     text-align: center;
     padding: 20px;
-    background: #333;
-    color: white;
+    background: #111;
+    color: #0f0;
 }
 
 .fade-in {
