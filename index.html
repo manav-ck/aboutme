@@ -3,54 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Manav C K - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Manav C K</h1>
-        <p>Automation Engineer | Bengaluru, India</p>
-        <p>Email: <a href="mailto:manavck6@gmail.com">manavck6@gmail.com</a> | Phone: 9148240539</p>
-        <p><a href="https://www.linkedin.com/in/manav~paul" target="_blank">LinkedIn</a></p>
+    <header class="hero">
+        <div class="container">
+            <h1 class="fade-in">Manav C K</h1>
+            <p class="fade-in delay-1">Automation Engineer | Bengaluru, India</p>
+            <p class="fade-in delay-2">
+                <a href="mailto:manavck6@gmail.com">manavck6@gmail.com</a> | 
+                <a href="tel:+919148240539">9148240539</a> | 
+                <a href="https://www.linkedin.com/in/manav~paul" target="_blank">LinkedIn</a>
+            </p>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Experienced Automation Engineer with over 7 years of experience in Selenium WebDriver and Java. Skilled in test automation frameworks and cloud-based CI/CD tools such as Jenkins, Azure DevOps, Bamboo, and Bitbucket. Proficient in project management tools like Jira, Rally, and VersionOne. Currently working at NetApp as part of the Cloud Insights engineering team.</p>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
+    <nav class="navbar">
         <ul>
-            <li><strong>MTS Software Engineer 3</strong>, NetApp (Dec 2022 – Present)</li>
-            <li><strong>Advisory Technical Services Specialist</strong>, IBM (Sep 2021 – Dec 2022)</li>
-            <li><strong>Test Automation Engineer Senior Analyst</strong>, Accenture (Jun 2019 – Sep 2021)</li>
-            <li><strong>System Engineer</strong>, TCS (Aug 2018 – Jun 2019)</li>
-            <li><strong>Assistant System Engineer</strong>, TCS (Aug 2016 – Jul 2018)</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
         </ul>
-    </section>
+    </nav>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Java, Selenium WebDriver, Jenkins, Groovy, Kubernetes, Shell Scripting, Kibana, Test Automation Frameworks</p>
-    </section>
+    <main class="container">
+        <section id="about" class="card fade-in">
+            <h2>About Me</h2>
+            <p>Experienced Automation Engineer with over 7 years of experience in Selenium WebDriver and Java...</p>
+        </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>BE, Computer Science</strong> – Bapuji Institute of Engineering & Technology, Davanagere (2013–2016)</li>
-            <li><strong>Diploma, Computer Science</strong> – Govt Polytechnic Harihar (2010–2013)</li>
-        </ul>
-    </section>
+        <section id="experience" class="card fade-in">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>MTS Software Engineer 3</strong>, NetApp (Dec 2022 – Present)</li>
+                <li><strong>Advisory Technical Services Specialist</strong>, IBM (Sep 2021 – Dec 2022)</li>
+                <li><strong>Test Automation Engineer Senior Analyst</strong>, Accenture (Jun 2019 – Sep 2021)</li>
+                <li><strong>System Engineer</strong>, TCS (Aug 2018 – Jun 2019)</li>
+                <li><strong>Assistant System Engineer</strong>, TCS (Aug 2016 – Jul 2018)</li>
+            </ul>
+        </section>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <p>AWS Certified Cloud Practitioner (Mar 2022 – Mar 2025)</p>
-    </section>
+        <section id="skills" class="card fade-in">
+            <h2>Skills</h2>
+            <p>Java, Selenium WebDriver, Jenkins, Groovy, Kubernetes, Shell Scripting, Kibana, Test Automation Frameworks</p>
+        </section>
 
-    <footer>
-        <p>Contact: manavck6@gmail.com | 9148240539</p>
+        <section id="education" class="card fade-in">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>BE, Computer Science</strong> – Bapuji Institute of Engineering & Technology</li>
+                <li><strong>Diploma, Computer Science</strong> – Govt Polytechnic Harihar</li>
+            </ul>
+        </section>
+
+        <section id="certifications" class="card fade-in">
+            <h2>Certifications</h2>
+            <p>AWS Certified Cloud Practitioner (Mar 2022 – Mar 2025)</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Manav C K</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
